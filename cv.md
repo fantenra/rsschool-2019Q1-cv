@@ -1,4 +1,4 @@
-  # Anastasiya Shalaeva #
+  # Anastasiya Shalaeva  
   
   *age 26, junior front-end developer*  
   *Kaliningrad, Russia*  
