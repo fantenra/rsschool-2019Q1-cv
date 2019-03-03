@@ -26,7 +26,25 @@
   
   ## Code examples 
   
-  //TODO
+ * [Codepen flex grid blocks pure css](https://codepen.io/fantenra/pen/qxjvbg)
+ * Sub menu item click:
+```javascript
+function innerMenuClick() {
+    $('.menu-item-has-children').children('.header__nav-link').click(function (e) {
+        $(this).toggleClass('active');
+        $(this).siblings('.sub-menu').slideToggle('600');
+        return false;
+    });
+}
+$(window).on('resize', function(e) {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+        innerMenuClick();
+    }, 250);
+
+});
+}
+```
   
   ## Experience
   
